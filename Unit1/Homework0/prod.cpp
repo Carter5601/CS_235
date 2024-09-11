@@ -11,9 +11,9 @@ int main(int argc, char* argv[]){
         return 1;
     }
 
-    int arg1 = stoi(argv[1]);
-    int arg2 = stoi(argv[2]);
-    int product = arg1 * arg2;
+    double arg1 = stod(argv[1]);
+    double arg2 = stod(argv[2]);
+    double product = arg1 * arg2;
 
     cout << arg1 << " * " << arg2 << " = " << product << endl;
 
